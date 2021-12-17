@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1c99a0b-4bed-4dd5-8567-e674a9b9fdac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/AKGAN：Learning item attributes and user interests for knowledge graph.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -562,12 +561,12 @@
       <workItem from="1639455502632" duration="596000" />
       <workItem from="1639535676201" duration="2885000" />
       <workItem from="1639620888975" duration="1178000" />
-      <workItem from="1639709483101" duration="3169000" />
+      <workItem from="1639709483101" duration="3455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1086651000" />
+    <option name="totallyTimeSpent" value="1086937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
