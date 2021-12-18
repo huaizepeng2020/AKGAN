@@ -1,9 +1,8 @@
 '''
-Created on July 1, 2020
-PyTorch Implementation of KGIN
-@author: Tinglin Huang (tinglin.huang@zju.edu.cn)
+PyTorch Implementation of AKGAN
+@author: Zepeng Huai
 '''
-__author__ = "huangtinglin"
+__author__ = "Zepeng Huai"
 
 import random
 import numpy as np
