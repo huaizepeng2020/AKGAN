@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1c99a0b-4bed-4dd5-8567-e674a9b9fdac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/modules/KGIN.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/KGIN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN1.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/KGIN1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN2.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/KGIN2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN3.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/KGIN3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN4.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/KGIN4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN5.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/KGIN5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN_sb.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/KGIN_sb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN_subexp1_mean.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/KGIN_subexp1_mean.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN_subexp1_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/KGIN_subexp1_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN_subexp2.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/KGIN_subexp2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,16 +17,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-              <folding>
-                <element signature="e#142#155#0" expanded="true" />
-                <element signature="e#93587#96453#0" />
-                <element signature="e#96484#97877#0" />
-                <element signature="e#109568#110823#0" />
-                <element signature="e#134417#141320#0" />
-                <element signature="e#453788#461242#0" />
-                <element signature="e#461276#466619#0" />
-                <element signature="e#466652#470519#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -71,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/modules/KGIN4.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -80,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/modules/KGIN5.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -98,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/modules/KGIN_subexp1_mean.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -107,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/modules/KGIN_subexp1_sum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -115,11 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/KGIN_subexp2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-              <folding>
-                <element signature="e#142#155#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -241,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="1660" />
     <option name="height" value="1020" />
@@ -252,6 +230,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,7 +247,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,7 +257,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aminer_RS/cpu_tagRS_API_hzp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -640,18 +618,19 @@
       <workItem from="1639535676201" duration="2885000" />
       <workItem from="1639620888975" duration="1178000" />
       <workItem from="1639709483101" duration="4083000" />
-      <workItem from="1639798519068" duration="870000" />
+      <workItem from="1639798519068" duration="2067000" />
+      <workItem from="1639883157403" duration="608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1088435000" />
+    <option name="totallyTimeSpent" value="1090240000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1689008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17091152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Alibaba Cloud Explorer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -935,16 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="e#142#155#0" expanded="true" />
-            <element signature="e#93587#96453#0" />
-            <element signature="e#96484#97877#0" />
-            <element signature="e#109568#110823#0" />
-            <element signature="e#134417#141320#0" />
-            <element signature="e#453788#461242#0" />
-            <element signature="e#461276#466619#0" />
-            <element signature="e#466652#470519#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,14 +941,14 @@
     <entry file="file://$PROJECT_DIR$/modules/KGIN4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/KGIN5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -993,24 +962,21 @@
     <entry file="file://$PROJECT_DIR$/modules/KGIN_subexp1_mean.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/KGIN_subexp1_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/KGIN_subexp2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="e#142#155#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
         </state>
       </provider>
     </entry>
