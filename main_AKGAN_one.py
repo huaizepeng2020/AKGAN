@@ -19,9 +19,8 @@ import gc
 from utils.parser import parse_args
 from utils.data_loader import load_data, load_data_nor, load_data_both
 from modules.KGIN_subexp1_one import RS_KGA0_att2_subexp1
-from utils.evaluate import  test2
+from utils.evaluate import test2
 from utils.helper import early_stopping
-
 
 n_users = 0
 n_items = 0
@@ -70,9 +69,10 @@ if __name__ == '__main__':
     """read args"""
     global args, device
     args = parse_args()
-    args.dim = 64
-    args.dim1 = 16
-    args.k_att = 0.25
+    # args.dim = 64  # 64 32
+    # args.dim1 = 16  # 4 4
+    # args.k_att = 0.25  # 0.1 0.25
+    # args.context_hops = 0
     device = torch.device("cuda:" + str(args.gpu_id)) if args.cuda else torch.device("cpu")
 
     """build dataset"""
@@ -113,8 +113,9 @@ if __name__ == '__main__':
         loss, s, cos_loss = 0, 0, 0
         train_s_t = time()
 
-        for s in tqdm(range(0, len(train_cf), args.batch_size),
-                      desc='epoch:{},batching cf data set'.format(epoch)):
+        # for s in tqdm(range(0, len(train_cf), args.batch_size),
+        #               desc='epoch:{},batching cf data set'.format(epoch)):
+        for s in range(0, len(train_cf), args.batch_size):
             batch = get_feed_dict(train_cf_pairs,
                                   s, s + args.batch_size,
                                   user_dict['train_user_set'])
@@ -161,7 +162,11 @@ if __name__ == '__main__':
                 torch.save(model.state_dict(), args.out_dir + 'model_' + args.dataset + '.ckpt')
 
         else:
-            print('using time %.4f, training loss and cos loss at epoch %d: %.4f, %.4f ' % (
-                train_e_t - train_s_t, epoch, loss, cos_loss))
+            print('using time %.4f, training loss at epoch %d: %.4f' % (
+                train_e_t - train_s_t, epoch, loss))
 
     print('early stopping at %d, recall@20:%.4f' % (epoch, cur_best_pre_0))
+
+# nohup python -u main_AKGAN_one.py --dataset last-fm --dim 64 --dim1 16 --k_att 0.3 --context_hops 2 >log_last_film.log 2>&1 &
+# nohup python -u main_AKGAN_one.py --dataset alibaba-fashion --dim 64 --dim1 4 --k_att 0.1 --context_hops 0 >log_alibaba_fashion.log 2>&1 &
+# nohup python -u main_AKGAN_one.py --dataset amazon-book --dim 32 --dim1 4 --k_att 0.25 --context_hops 2 --gpu_id 1 >log_amazon_book.log 2>&1 &

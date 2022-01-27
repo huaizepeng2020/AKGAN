@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1c99a0b-4bed-4dd5-8567-e674a9b9fdac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/AKGAN_github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AKGAN_github.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning item attributes and user interests for knowledge graph enhanced recommendation.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_AKGAN_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_AKGAN_one.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN_sb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN_subexp1_mean.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN_subexp1_sum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN_subexp2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/evaluate1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/evaluate10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/evaluate_atr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/evaluate_new.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/parser.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,20 +22,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main_AKGAN_one.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2185">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="171">
+              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/metrics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/helper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/training_log/log_last_film.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="716">
+              <caret line="1123" column="77" lean-forward="true" selection-start-line="1123" selection-start-column="77" selection-end-line="1123" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/parser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="67" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/KGIN_subexp1_one.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="275" column="57" selection-start-line="275" selection-start-column="57" selection-end-line="275" selection-end-column="57" />
+            <state relative-caret-position="4845">
+              <caret line="263" column="27" selection-start-line="263" selection-start-column="27" selection-end-line="263" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/data_loader.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3344">
+              <caret line="176" selection-start-line="176" selection-end-line="176" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/data_loader1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/evaluate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1368">
+              <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,7 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>022ab423f035b47ac0af5046c51ed093</find>
       <find>233a349fd3321b43b5d47a96f832bbb7</find>
       <find>03926eb5676a4fb5a20e64e8e0713224</find>
       <find>30835</find>
@@ -89,10 +158,11 @@
       <find>72b059d86956ec93bbe2ae5a6622f4bd</find>
       <find>84866</find>
       <find>43038</find>
-      <find>43038</find>
       <find>2b28f4772c30b8544c742f6a349a06b3</find>
       <find>18</find>
       <find>40317</find>
+      <find>0.1206</find>
+      <find>0.1205</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -104,14 +174,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main_MAKG1.py" />
         <option value="$PROJECT_DIR$/main_test.py" />
         <option value="$PROJECT_DIR$/main_MAKG.py" />
         <option value="$PROJECT_DIR$/main_UIFGAN2.py" />
         <option value="$PROJECT_DIR$/main_KGE.py" />
         <option value="$PROJECT_DIR$/main_UIFGAN1.py" />
         <option value="$PROJECT_DIR$/log_coe/c.py" />
-        <option value="$PROJECT_DIR$/utils/helper.py" />
         <option value="$PROJECT_DIR$/utils/data_loader.py" />
         <option value="$PROJECT_DIR$/for_main.py" />
         <option value="$PROJECT_DIR$/main_UIFGAN.py" />
@@ -141,7 +209,6 @@
         <option value="$PROJECT_DIR$/command.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/utils/evaluate.py" />
-        <option value="$PROJECT_DIR$/utils/parser.py" />
         <option value="$PROJECT_DIR$/modules/KGIN_subexp1_one.py" />
         <option value="$PROJECT_DIR$/modules/KGIN.py" />
         <option value="$PROJECT_DIR$/modules/KGIN1.py" />
@@ -154,7 +221,10 @@
         <option value="$PROJECT_DIR$/modules/KGIN_subexp1_sum.py" />
         <option value="$PROJECT_DIR$/modules/KGIN_subexp2.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/utils/parser.py" />
         <option value="$PROJECT_DIR$/main_AKGAN_one.py" />
+        <option value="$PROJECT_DIR$/log_last_film.log" />
+        <option value="$PROJECT_DIR$/utils/helper.py" />
       </list>
     </option>
   </component>
@@ -170,7 +240,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
+    <option name="x" value="-8" />
     <option name="width" value="1660" />
     <option name="height" value="1020" />
   </component>
@@ -180,6 +250,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,11 +263,20 @@
               <item name="AKGAN_github" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AKGAN_github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AKGAN_github" type="462c0819:PsiDirectoryNode" />
+              <item name="training_log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AKGAN_github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AKGAN_github" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +287,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aminer_RS/A100_tagRS_rank" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -219,15 +299,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\LocalProject\AKGAN_A0100\log_reposite\delete" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\LocalProject\AKGAN_A0100" />
       <recent name="E:\LocalProject\AKGAN_A0100\modules" />
       <recent name="E:\LocalProject\AKGAN_A0100\log_reposite\1" />
       <recent name="E:\LocalProject\UMIKGAN_A0100" />
       <recent name="E:\LocalProject\UMIKGAN_A100" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\LocalProject\AKGAN_github\training_log" />
+      <recent name="E:\LocalProject\AKGAN_A0100\log_reposite\delete" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,15 +325,15 @@
   </component>
   <component name="RunManager" selected="Python.main_AKGAN_one">
     <configuration name="main_AKGAN_one" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="UMIKGAN" />
+      <module name="AKGAN_github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="sftp://huaizepeng@182.92.171.44:22/home/huaizepeng/anaconda3/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -571,18 +652,22 @@
       <workItem from="1639798519068" duration="2067000" />
       <workItem from="1639883157403" duration="608000" />
       <workItem from="1641655600796" duration="704000" />
-      <workItem from="1642311278884" duration="117000" />
+      <workItem from="1642311278884" duration="955000" />
+      <workItem from="1642603413700" duration="2402000" />
+      <workItem from="1643080602213" duration="1904000" />
+      <workItem from="1643188184408" duration="1302000" />
+      <workItem from="1643255952542" duration="1407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1091061000" />
+    <option name="totallyTimeSpent" value="1098914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1494638" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21715818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Alibaba Cloud Explorer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -596,7 +681,7 @@
       <window_info anchor="bottom" id="Alibaba Cloud View" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="File Transfer" order="10" weight="0.14002828" />
+      <window_info anchor="bottom" id="File Transfer" order="10" visible="true" weight="0.1388102" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -648,7 +733,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main_AKGAN_one.py</url>
-          <line>123</line>
+          <line>124</line>
           <option name="timeStamp" value="223" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -678,7 +763,7 @@
     <SUITE FILE_PATH="coverage/UMIKGAN$main_MAKG.coverage" NAME="main_MAKG Coverage Results" MODIFIED="1625898481088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UMIKGAN_A0100$main_UIFGAN.coverage" NAME="main_UIFGAN Coverage Results" MODIFIED="1632929868957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AKGAN_A0100$main_AKGAN_sub1_mean.coverage" NAME="main_AKGAN_sub1_mean Coverage Results" MODIFIED="1637419587860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/AKGAN_github$main_AKGAN_one.coverage" NAME="main_AKGAN_one Coverage Results" MODIFIED="1639710979590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AKGAN_github$main_AKGAN_one.coverage" NAME="main_AKGAN_one Coverage Results" MODIFIED="1642613656909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UMIKGAN$main_UIKGAN.coverage" NAME="main_UIKGAN Coverage Results" MODIFIED="1625295238411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UMIKGAN$main_UPKGAN.coverage" NAME="main_UPKGAN Coverage Results" MODIFIED="1625153894957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/AKGAN_A0100$main_AKGAN_sub2.coverage" NAME="main_AKGAN_sub2 Coverage Results" MODIFIED="1636781266359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -700,10 +785,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/log_coe/dataset_alibaba-fashion_dim_64_dim1_4_lr_0.0001_l2_1e-05_katt_0.25.log" />
-    <entry file="file://$PROJECT_DIR$/log_coe/dataset_alibaba-fashion_dim_64_dim1_4_lr_0.0001_l2_1e-05_katt_0.1.log" />
-    <entry file="file://$PROJECT_DIR$/log_coe/dataset_last-fm_dim_64_dim1_16_lr_0.0001_l2_1e-05_katt_1.0.log" />
-    <entry file="file://$PROJECT_DIR$/log_reposite/1/all_alibaba-fashion.log" />
     <entry file="file://$PROJECT_DIR$/main_UIFGAN.py" />
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/data/amazon-book/README.md">
@@ -784,16 +865,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/for_main_film.py" />
     <entry file="file://$PROJECT_DIR$/main_AKGAN_sub1_mean.py" />
-    <entry file="file://$PROJECT_DIR$/utils/data_loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3078">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/command.py" />
     <entry file="file://$PROJECT_DIR$/for_main_ali_RQ2.py" />
     <entry file="file://$PROJECT_DIR$/for_main_book.py" />
@@ -813,16 +884,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/parser.py">
+    <entry file="file://$PROJECT_DIR$/modules/KGIN1.py" />
+    <entry file="file://$PROJECT_DIR$/modules/KGIN2.py" />
+    <entry file="file://$PROJECT_DIR$/modules/KGIN.py" />
+    <entry file="file://$PROJECT_DIR$/modules/KGIN3.py" />
+    <entry file="file://$PROJECT_DIR$/modules/KGIN4.py" />
+    <entry file="file://$PROJECT_DIR$/modules/KGIN5.py" />
+    <entry file="file://$PROJECT_DIR$/modules/KGIN_sb.py" />
+    <entry file="file://$PROJECT_DIR$/modules/KGIN_subexp1_mean.py" />
+    <entry file="file://$PROJECT_DIR$/modules/KGIN_subexp1_sum.py" />
+    <entry file="file://$PROJECT_DIR$/modules/KGIN_subexp2.py" />
+    <entry file="file://$PROJECT_DIR$/training_log/log_last_film.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+        <state relative-caret-position="716">
+          <caret line="1123" column="77" lean-forward="true" selection-start-line="1123" selection-start-column="77" selection-end-line="1123" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/KGIN_subexp1_one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4845">
+          <caret line="263" column="27" selection-start-line="263" selection-start-column="27" selection-end-line="263" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
+        <state relative-caret-position="1368">
           <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
@@ -830,73 +918,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/KGIN1.py">
+    <entry file="file://$PROJECT_DIR$/utils/metrics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/KGIN2.py">
+    <entry file="file://$PROJECT_DIR$/utils/parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="152">
+          <caret line="8" column="67" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/KGIN.py">
+    <entry file="file://$PROJECT_DIR$/utils/data_loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="3344">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/KGIN3.py">
+    <entry file="file://$PROJECT_DIR$/utils/data_loader1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/KGIN4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/KGIN5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/KGIN_sb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/KGIN_subexp1_mean.py">
+    <entry file="file://$PROJECT_DIR$/utils/helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/KGIN_subexp1_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/KGIN_subexp2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -909,15 +969,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main_AKGAN_one.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2185">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/KGIN_subexp1_one.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="275" column="57" selection-start-line="275" selection-start-column="57" selection-end-line="275" selection-end-column="57" />
+        <state relative-caret-position="171">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>

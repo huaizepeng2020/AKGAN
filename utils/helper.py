@@ -1,8 +1,4 @@
-'''
-Created on Aug 19, 2016
-@author: Xiang Wang (xiangwang@u.nus.edu)
-'''
-__author__ = "xiangwang"
+
 import os
 import re
 
@@ -48,7 +44,7 @@ def early_stopping(log_value, best_value, stopping_step, expected_order='acc', f
         stopping_step += 1
 
     if stopping_step >= flag_step:
-        print("Early stopping is trigger at step: {} log:{}".format(flag_step, log_value))
+        # print("Early stopping is trigger at step: {} log:{}".format(flag_step, log_value))
         should_stop = True
     else:
         should_stop = False
