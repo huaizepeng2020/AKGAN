@@ -1,8 +1,4 @@
-'''
-Created on Dec 17, 2021
-@author: huaizepeng (huaizepeng2020@ia.ac.cn)
-'''
-__author__ = "huaizepeng"
+__author__ = "anonymity"
 
 import random
 
@@ -69,10 +65,6 @@ if __name__ == '__main__':
     """read args"""
     global args, device
     args = parse_args()
-    # args.dim = 64  # 64 32
-    # args.dim1 = 16  # 4 4
-    # args.k_att = 0.25  # 0.1 0.25
-    # args.context_hops = 0
     device = torch.device("cuda:" + str(args.gpu_id)) if args.cuda else torch.device("cpu")
 
     """build dataset"""
@@ -166,7 +158,3 @@ if __name__ == '__main__':
                 train_e_t - train_s_t, epoch, loss))
 
     print('early stopping at %d, recall@20:%.4f' % (epoch, cur_best_pre_0))
-
-# nohup python -u main_AKGAN_one.py --dataset last-fm --dim 64 --dim1 16 --k_att 0.3 --context_hops 2 >log_last_film.log 2>&1 &
-# nohup python -u main_AKGAN_one.py --dataset alibaba-fashion --dim 64 --dim1 4 --k_att 0.1 --context_hops 0 >log_alibaba_fashion.log 2>&1 &
-# nohup python -u main_AKGAN_one.py --dataset amazon-book --dim 32 --dim1 4 --k_att 0.25 --context_hops 2 --gpu_id 1 >log_amazon_book.log 2>&1 &

@@ -1,8 +1,4 @@
-'''
-PyTorch Implementation of AKGAN
-@author: Zepeng Huai
-'''
-__author__ = "Zepeng Huai"
+__author__ = "anonymity"
 
 import random
 import numpy as np
