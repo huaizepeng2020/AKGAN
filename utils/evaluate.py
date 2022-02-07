@@ -1,5 +1,5 @@
 from .metrics import *
-from .parser import parse_args, parse_args1
+from .parser import parse_args
 
 import torch
 import numpy as np

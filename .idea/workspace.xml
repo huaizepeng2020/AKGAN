@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1c99a0b-4bed-4dd5-8567-e674a9b9fdac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_AKGAN_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_AKGAN_one.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/KGIN_subexp1_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/KGIN_subexp1_one.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_log/log_last_film.log" beforeDir="false" afterPath="$PROJECT_DIR$/training_log/log_last_film.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/data_loader1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/evaluate.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_AKGAN_one.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
               <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -95,14 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/utils/evaluate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -192,8 +194,6 @@
         <option value="$PROJECT_DIR$/for_main_ali_tao.py" />
         <option value="$PROJECT_DIR$/for_main_film_tao.py" />
         <option value="$PROJECT_DIR$/command.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/utils/evaluate.py" />
         <option value="$PROJECT_DIR$/modules/KGIN.py" />
         <option value="$PROJECT_DIR$/modules/KGIN1.py" />
         <option value="$PROJECT_DIR$/modules/KGIN2.py" />
@@ -210,6 +210,8 @@
         <option value="$PROJECT_DIR$/modules/KGIN_subexp1_one.py" />
         <option value="$PROJECT_DIR$/main_AKGAN_one.py" />
         <option value="$PROJECT_DIR$/utils/parser.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/utils/evaluate.py" />
       </list>
     </option>
   </component>
@@ -632,12 +634,12 @@
       <workItem from="1643080602213" duration="1904000" />
       <workItem from="1643188184408" duration="1302000" />
       <workItem from="1643255952542" duration="2355000" />
-      <workItem from="1644203459859" duration="1115000" />
+      <workItem from="1644203459859" duration="1658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1100977000" />
+    <option name="totallyTimeSpent" value="1101520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -851,13 +853,6 @@
     <entry file="file://$PROJECT_DIR$/for_main_book_RQ2.py" />
     <entry file="file://$PROJECT_DIR$/experent.txt" />
     <entry file="file://$PROJECT_DIR$/main.py" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/KGIN1.py" />
     <entry file="file://$PROJECT_DIR$/modules/KGIN2.py" />
     <entry file="file://$PROJECT_DIR$/modules/KGIN.py" />
@@ -918,16 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/evaluate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/helper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
@@ -958,6 +943,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/evaluate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
