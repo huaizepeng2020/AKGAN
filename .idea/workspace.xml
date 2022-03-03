@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1c99a0b-4bed-4dd5-8567-e674a9b9fdac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_log/log_last_film.log" beforeDir="false" afterPath="$PROJECT_DIR$/training_log/log_last_film.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="88" lean-forward="true" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -54,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/training_log/log_last_film.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1486">
-              <caret line="1149" column="55" lean-forward="true" selection-start-line="1149" selection-start-column="55" selection-end-line="1149" selection-end-column="55" />
+            <state relative-caret-position="749">
+              <caret line="1080" column="55" lean-forward="true" selection-start-line="1080" selection-start-column="55" selection-end-line="1080" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -653,12 +651,12 @@
       <workItem from="1645532331307" duration="594000" />
       <workItem from="1645602969065" duration="1925000" />
       <workItem from="1645955785337" duration="606000" />
-      <workItem from="1646293453111" duration="1787000" />
+      <workItem from="1646293453111" duration="2343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1112636000" />
+    <option name="totallyTimeSpent" value="1113192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -957,15 +955,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/training_log/log_last_film.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1486">
-          <caret line="1149" column="55" lean-forward="true" selection-start-line="1149" selection-start-column="55" selection-end-line="1149" selection-end-column="55" />
+        <state relative-caret-position="749">
+          <caret line="1080" column="55" lean-forward="true" selection-start-line="1080" selection-start-column="55" selection-end-line="1080" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="88" lean-forward="true" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
